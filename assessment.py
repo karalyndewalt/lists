@@ -144,7 +144,7 @@ def largest_n_items(items, n):
 
     # assign items run through the built in sorted function 
     # to the sorted_list identifier
-    sorted_list = sorted(itms)
+    sorted_list = sorted(items)
 
     if n == 0:
         return []
